@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Stark</title>
+
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--link ficheiro css para as fonts-->
+    <link rel="stylesheet" href="fonts/font.css">
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- 1. CABEÇALHO -->
+    <header>
+
+        <div class="container-fluid container-titulo-barra">
+
+            <!-- titulo -->
+            <div class="row row-titulo">
+                <h1 class="col-4 m-auto text-center text-uppercase">Tony Stark</h1>
+            </div>
+
+            <!-- linha separadora -->
+            <div class="row">
+                <div class="col-12 linha-separadora"></div>
+            </div>
+
+            <!-- barra de navegação -->
+            <div class="row">
+
+                <nav class="col-12 navbar navbar-expand-lg">
+
+                    <div class="collapse navbar-collapse" id="navbar-header">
+
+                        <ul class="navbar-nav m-auto mb-2 menus">
+
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Autor</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" aria-haspopup="true" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Livros
+                                </a>
+
+                                <ul class="dropdown-menu border rounded-0">
+                                    <li><a class="dropdown-item submenus" href="#">Senhora do Amor e da Guerra</a></li>
+                                    <li><a class="dropdown-item submenus" href="#">O velho que pensava que fugia</a></li>
+                                    <li><a class="dropdown-item submenus" href="#">O caracol estrábico</a></li>
+                                    <li><a class="dropdown-item submenus" href="#">O colecionador de amnésias</a></li>
+                                    <li><a class="dropdown-item submenus" href="#">O homem certo é difícil de encontrar</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Imprensa</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contactos</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    
+                </nav>
+
+            </div>
+
+        </div>
+
+        <!-- CAROUSEL -->
+        <div class="container-fluid p-0">
+
+            <div class="row mx-0">
+
+                <div id="carousel" class="col p-0 carousel slide" data-bs-ride="carousel">
+    
+                    <!-- carousel-items -->
+                    <div class="carousel-inner">
+    
+                        <div class="carousel-item active">
+    
+                            <img src="imagens/cabecalho1.jpg" class="d-block w-100" alt="Livro - Senhora do Amor e da Guerra" data-bs-interval="2000">
+                            
+                            <div class="carousel-caption d-none d-md-block text-start">
+                                <div class="row">
+                                    <div class="col novidade">Novidade</div>
+                                </div>
+                                <div class="row d-block">
+                                    <div class="col-6 titulo-banner">Senhora do amor e da Guerra</div>
+                                    <div class="col-6 texto-banner">
+                                        Séculos antes do famoso Gilgamesh, uma bela mulher aparece a comandar os destinos da maior cidade do mundo.
+                                        <br>
+                                        Sete extraordinárias plaquetas de barro cozido sugerem a sua história: a inteligência, a coragem, o dom de seduzir, que a conduzem a mais doque um dias consedu
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <a class="col-12 btn-sabermais" href="#"></a>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="carousel-item">
+    
+                            <img src="imagens/cabecalho2.jpg" class="d-block w-100" alt="Livro - O Caracol Estrábico" data-bs-interval="2000">
+                            
+                            <div class="row carousel-caption d-none d-md-block text-start">
+                                <div class="row">
+                                    <div class="col novidade"></div>
+                                </div>
+                                <div class="col-6 titulo-banner">O Caracol Estrábico</div>
+                                <div class="col-6 texto-banner">
+                                    12 PERSONAGENS. 12 HISTÓRIAS DE DESFECHO INSÓLITO: <br><br>* Xana desistiu por fim de repelir as atenções de um celibatário de meia-idade que lhe apareceu na loja. Este não imagina a surpresa que o aguarda. <br>* Rodrigo chega a ...
+                                </div>
+                                <div class="row">
+                                    <a class="col-12 btn-sabermais" href="#"></a>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="carousel-item">
+    
+                            <img src="imagens/cabecalho3.jpg" class="d-block w-100" alt="Livro - O colecionador de Amnésias" data-bs-interval="2000">
+                            
+                            <div class="row carousel-caption d-none d-md-block text-start">
+                                <div class="row">
+                                    <div class="col novidade"></div>
+                                </div>
+                                <div class="col-6 titulo-banner">O colecionador de Amnésias</div>
+                                <div class="col-6 texto-banner">
+                                    Um lapso de memória, um acidente na fábrica …  O Engº Zeferino não tem dúvidas: só lhe resta demitir-se. Até porque, tem reparado, lapsos destes tendem a ocorrer-lhe.  Espaçados, é certo, mas in...
+                                </div>
+                                <div class="row">
+                                    <a class="col-12 btn-sabermais" href="#"></a>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                        <div class="carousel-item">
+                            <img src="imagens/cabecalho4.jpg" class="d-block w-100" alt="Livro - O velho que pensava que fugia"
+                                data-bs-interval="2000">
+                            <div class="row carousel-caption d-none d-md-block text-start">
+                                <div class="row">
+                                    <div class="col novidade"></div>
+                                </div>
+                                <div class="col-6 titulo-banner">O velho que pensava que fugia</div>
+                                <div class="col-6 texto-banner">
+                                    Às quatro da madrugada, que faz um homem de oitenta e três anos escondido entre os eucaliptos? De que foge? Que procura? Quem o persegue?Onde irá ele arranjar dinheiro para hotéis, táxis, comboios, autocarros?Porque ...
+                                </div>
+                                <div class="row">
+                                    <a class="col-12 btn-sabermais" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- carousel-indicators -->
+    
+                        <div class="row">
+    
+                            <div class="col">
+                                <div class="carousel-indicators d-flex justify-content-start gap-2">
+                                    <button data-bs-target="#carousel" data-bs-slide-to="0" aria-label="Slide 1" class="active btn-bola" aria-current="true"></button>
+                                    <button data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2" class="btn-bola"></button>
+                                    <button data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3" class="btn-bola"></button>
+                                    <button data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4" class="btn-bola"></button>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+            
+        </div>
+
+    </header>
+
+
+    <!-- 2. HOME -->
+
+    <main>
+        
+        <!-- area bem-vindo -->
+        <div class="container-fluid d-flex justify-content-end">
+
+            <div class="row white-box p-5">
+    
+                <div class="imagem-autor col-4">
+                    <img class="h-100" src="imagens/tony.webp" alt="Autor Tony Stark">
+                </div>
+    
+                <div class="col-8 descricao d-flex flex-column">
+                    <div class="t1">Bem-vindo ao meu website</div>
+                    <div class="p">
+                        O autor de 'O Colecionador de Amnésias, e "Senhora do Amor e da Guerra" nasceu em Lisboa, em 1954.
+                        Formou-se em engenharia química pela universidade de Birmingham, Reino unido. Professor no Instituto
+                        Superior Técnico, é casado e tem duas filhas. <br><br> Até aos 45 anos, escreveu exclusivamente
+                        poesia, mas Começou a sentir que se repetia, e decidiu fazer mais uma tentativa de escrever ficção,
+                        mas desta vez com um afinco que nunca pusera em anteriores tentativas. E finalmente descobriu que
+                        era capaz de escrever diálogos e congeminar enredos. <br><br> Publicou então sucessivamente um livro
+                        de contos, "<i>O</i> caracol estrábico" (2011), e os romances "<i>O</i> colecionador de amnésias" (2014), "<i>O</i> velho
+                        que pensava que fugia" (2017), o romance histórico "<i>Senhora</i> do amor e da guerra" (2020) e o romance
+                        "<i>O</i> homem Certo é difícil de encontrar" (2021)....
+                    </div>
+                    <div class="bemvindo-button d-flex justify-content-end m-0">
+                        <a class="btn-sabermais" href="#"></a>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+        <!-- ultimos livros cards -->
+        <div class="container">
+    
+            <div class="row ultimos-livros">
+                <div class="col">
+                    <div class="t1 my-5">Últimos Livros</div>
+                </div>
+            </div>
+    
+            <div class="row destaques mt-4">
+    
+                <div class="col">
+    
+                    <div class="card border border-0 rounded-0">
+            
+                        <img src="imagens/livro1.jpg" class="card-img-top border rounded-0" alt="Livro - Senhora do amor e da guerra">
+                        
+                        <div class="card-body card-novidade">
+                            <div class="card-title t1">Senhora do amor e da guerra</div>
+                            <div class="novidade">Novidade</div>
+                            <div class="card-text p">
+                                Uruk, Mesopotâmia, 3000 a. C. Séculos antes do famoso Gilgamesh, uma bela mulher aparece a
+                                comandar os destinos da maior cidade do mundo. Sete extraordinárias plaquetas de barro
+                                cozido sugerem a sua história: a inteligência, a coragem, o dom de...
+                            </div>
+                        </div>
+    
+                        <div class="d-flex justify-content-end mb-4">
+                            <a class="btn-sabermais" href="#"></a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col">
+    
+                    <div class="card border border-0 rounded-0">
+    
+                        <img src="imagens/livro2.jpg" class="card-img-top border rounded-0" alt="Livro - O velho que pensava que fugia">
+                        
+                        <div class="card-body">
+                            <div class="card-title t1">O velho que pensava que fugia</div>
+                            <div class="novidade"></div>
+                            <div class="card-text p">
+                                Às quatro da madrugada, que faz um homem de oitenta e três anos escondido entre os
+                                eucaliptos? De que foge? Que procura? Quem o persegue? Onde irá ele arranjar dinheiro para
+                                hotéis, táxis, comboios, autocarros? Porque elege para refúgio...
+                            </div>
+                        </div>
+    
+                        <div class="d-flex justify-content-end mb-4">
+                            <a class="btn-sabermais" href="#"></a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="col">
+    
+                    <div class="card border border-0 rounded-0">
+    
+                        <img src="imagens/livro3.jpg" class="card-img-top border rounded-0" alt="Livro - O colecionador de amnésias">
+                        
+                        <div class="card-body">
+                            <div class="card-title t1">O colecionador de amnésias</div>
+                            <div class="novidade"></div>
+                            <div class="card-text p">
+                                Um lapso de memória, um acidente na fábrica... O Engº Zeferino não tem dúidas: só lhe resta
+                                demitir-se. Até proque tem reparado, lapsos destes tendem a ocorrer-lhe. Espaçados, é certo,
+                                mas inevitáveis...
+                            </div>
+                        </div>
+    
+                        <div class="d-flex justify-content-end mb-4">
+                            <a class="btn-sabermais" href="#"></a>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </main>
+    
+
+    <!-- 3. RODAPÉ -->
+
+    <!-- NAV do rodapé -->
+    <nav class="container nav-rodape">
+
+        <div class="row">
+            <div class="col-12 linha-separadora"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 links text-uppercase text-center">
+                <a href="#" class="menus active">Home</a>
+                <a href="#" class="menus">Autor</a>
+                <a href="#" class="menus">Livros</a>
+                <a href="#" class="menus">Imprensa</a>
+                <a href="#" class="menus">Contactos</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 linha-separadora"></div>
+        </div>
+
+    </nav>
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+
+        <div class="row d-flex footer-row">
+
+            <!-- col-esq Contactos -->
+            <div class="col-7 col-contactos">
+
+                <div class="row t1">
+                    <div class="col">Contactos</div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="titulo-campo">Morada Editora</div>
+                        <div class="conteudo-campo">
+                            Rua Jorge Colaço 37A
+                            <br>
+                            1700-252, Portugal
+                        </div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="titulo-campo">Email Editora</div>
+                        <div class="conteudo-campo">info@culturaeditora.pt</div>
+                    </div>
+
+                    <div class="col-3">
+                        <div class="titulo-campo">Email Autor</div>
+                        <div class="conteudo-campo">geral@sebastiaoalves.com</div>
+                    </div>
+                </div>
+
+                <div class="row livro-ralc">
+                    <div class="col-7">
+                        <a href="#"><img src="imagens/livroreclamacoes.svg" alt="Livro de Reclamações"></a>
+                        <a href="#"><img class="ralc" src="imagens/ralc.svg" alt="RALC"></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- col-drt Redes Sociais -->
+            <div class="col-5 col-redes d-flex flex-column align-items-center">
+
+                <div class="t1 text-center">SIGA-ME NAS REDES SOCIAIS</div>
+
+                <div class="icons d-flex justify-content-center">
+                    <div class="rs ig"></div>
+                    <div class="rs fb"></div>
+                    <div class="rs lk"></div>
+                </div>
+
+                <div class="row copyright p text-center">
+                    Copyright &copy; 2021 Grupo MediaMaster. Todos os direitos reservados.
+                </div>
+
+            </div>
+
+        </div>
+        
+    </footer>
+
+</body>
+
+
+</html>
